@@ -1,0 +1,30 @@
+@media (max-width: 414px){
+    body{
+        max-width: 414px;
+    }   
+
+    .container{
+        width: 414px;
+        margin: 0 auto;
+    }
+
+    header .container{
+        justify-content:stretch;
+        column-gap: 80px;
+    }
+
+    header ul{
+        flex-direction: column;
+        row-gap: 10px;
+        
+    }
+    header a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+
+}
